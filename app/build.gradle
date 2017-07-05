@@ -6,7 +6,7 @@ def LAST_FM_API_KEY ='"' + LastFMApiKey + '"' ?: '"Define LastFm Api key"';
 
 android {
     compileSdkVersion 22
-    buildToolsVersion "22.0.1"
+    buildToolsVersion '25.0.0'
 
     defaultConfig {
         applicationId "com.platzi.silmood.the_fm"
